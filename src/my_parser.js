@@ -1,4 +1,4 @@
-var Parser = require('./parser_module');
+var Parser = require('./../parser_module');
 var fs=require('fs');
 var request = require('request');
 var sslRootCAs = require('ssl-root-cas/latest');
