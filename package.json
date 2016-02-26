@@ -1,7 +1,30 @@
 {
-  "name" : "cancel-bookings",
-  "version" : "0.0.1",
-  "dependencies" : {
-    "express" : "3.3.x"
-  }
+  "name": "cancel-bookings",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "^2.69.0",
+    "ssl-root-cas": "^1.1.10"
+  },
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "babel-preset-pundits": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troy-horton/cancel-bookings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troy-horton/cancel-bookings/issues"
+  },
+  "homepage": "https://github.com/troy-horton/cancel-bookings#readme"
 }
