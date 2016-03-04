@@ -11,10 +11,16 @@
     "test": "test"
   },
   "devDependencies": {
-    "babel-preset-pundits": "^1.0.2"
+    "babel-core": "^6.6.0",
+    "babel-preset-pundits": "^1.0.2",
+    "babel-register": "^6.6.0",
+    "code": "^2.1.0",
+    "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "",
+    "pretest": "",
+    "test": "_mocha test/**/*.tests.js"
   },
   "repository": {
     "type": "git",
